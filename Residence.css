@@ -1,0 +1,94 @@
+.r-wrapper{
+    background: white;
+}
+.r-container{
+    overflow: hidden;
+    position: relative;
+}
+.r-head{
+    margin-bottom: 2rem;
+    background: white;
+    margin-left: 4rem;
+}
+.empty{
+    background: white;
+}
+.swip{
+    background: rgb(255, 255, 255);
+}
+.r-card{
+    gap: .6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+
+}
+.r-card>img{
+    width: 100%;
+    max-width: 15rem;
+}
+.r-card >:nth-child(2)
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.r-card>:nth-child(3)
+{
+    font-size: 1.5rem;
+}
+.r-card>:nth-child(4){
+    font-size: .7rem;
+    width: 15rem;
+}
+.r-card:hover{
+    scale:(1.025s);
+    cursor: pointer;
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 207, 207, 0.666)0%, 
+        rgb(129, 255, 75)217.91%);
+        box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.46)217.91%;
+}
+.swiper-horizontal{
+    overflow: visible;
+}
+.r-btn{
+    position: absolute;
+    gap: 1rem;
+    top: .5rem;
+    right: 3rem;
+}
+.r-btn button{
+    font-size: 1.2rem;
+    color: blue;
+    padding: .2rem .8rem;
+    border: none;
+    border-radius:5px ;
+    background: rgb(215, 27, 27);
+    cursor: pointer;
+}
+.r-btn>:nth-child(1)
+{
+    background: #EEEEFF;
+}
+.r-btn>:nth-child(2){
+    box-shadow: 0px, 0px, 5px 1px rgba(0, 0, 0, 0.25);
+    background: #EEEEFF;
+}
+@media (max-width:500px){
+    .r-btn{
+        position: absolute;
+        left: 5rem;
+        top: -1rem;
+        margin-top: 3rem;
+    }
+
+    .r-btn button{
+        font-size: .8rem;
+    }
+    .r-card{
+        margin-top: 3.6rem;
+    }
+}

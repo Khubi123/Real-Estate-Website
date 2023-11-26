@@ -1,0 +1,29 @@
+.f-wrapper{
+    background: white;
+}
+.f-container{
+    justify-content: space-between;
+}
+.f-left{
+    gap: 1rem;
+    margin-left: 4.8rem;
+}
+.f-right{
+    margin-right: 4.5rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 500px){
+    .f-left{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    .f-right{
+        margin-left: 3rem;
+        margin-bottom: 4rem;
+    }
+}

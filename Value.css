@@ -1,0 +1,93 @@
+.v-wrapper{
+background: white;
+position: relative;
+}
+.v-container .img-container-1{
+    border: 8px solid rgba(232, 232, 232 / 93%);
+}
+.img-container-1{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12) ;
+}
+.v-right{
+    gap: 1rem;
+    /* margin-left: 2rem; */
+}
+.Accordion{
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    width: 45rem;
+    margin-left: 1rem;
+}
+.Accordion-Item{
+    background: white;
+    border: 0.8px solid rgba (128,128,128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.accordion-btn{
+background: white;
+padding: 1rem;
+width: 100%;
+cursor: pointer;
+justify-content: space-between;
+}
+.icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.head{
+    font-size: 1.4rem;
+}
+.icon svg{
+    fill: var(--blue);
+}
+.accordion-btn .primaryText{
+    font-size: 1.1rem;
+}
+.Accordion-Item.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+@media (max-width: 640px) {
+    .v-wrapper{
+        position: relative;
+        right: 13.5rem;
+    }
+    .v-right{
+        position: relative;
+        left: 15rem;
+    }
+    .v-container .img-container{
+        position: relative;
+        left: 13rem;
+    }
+    .v-right span{
+        font-size: .7rem;
+    }
+    .v-right .orangeText{
+        font-size: 1.3rem;
+    }
+    .v-right .primaryText{
+        font-size: 1.1rem;
+    }
+    .Accordion{
+        width: 18.3rem;
+    }
+    .Accordion-Item{
+        background: rgb(255, 243, 243);
+        color: black;
+        margin-bottom: 20px;
+        border: 2px solid black;
+    }
+    .accordion-btn .primaryText{
+        font-size: .8rem;
+    }
+   
+}
